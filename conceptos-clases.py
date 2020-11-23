@@ -16,7 +16,7 @@ p1.desplegar()
 print(p1.nombre)
 print(p1.edad)
 
-p2 = Persona("Karla", 30, 2,4,5)
+p2 = Persona("Karla", 30, 1,2,3)
 p2.desplegar()
 
 p3 = Persona("HJOla", 20, 2,4,7, m="Manzana", p= "pera", j="Jicama")

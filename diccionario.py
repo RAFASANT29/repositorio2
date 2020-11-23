@@ -18,6 +18,7 @@ print(diccionario["IDE"])
 #iterar
 for termino in diccionario:
     print(termino)
+    
 for termino in diccionario:
     print(diccionario[termino])
 
