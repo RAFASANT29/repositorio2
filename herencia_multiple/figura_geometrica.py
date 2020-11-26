@@ -1,4 +1,6 @@
-class FiguraGeometrica(object):
+#ABC = Abstract Base Class
+from abc import ABC, abstractmethod
+class FiguraGeometrica(ABC):
     def __init__(self, ancho, alto):
         self.__ancho = ancho
         self.__alto = alto
@@ -17,6 +19,9 @@ class FiguraGeometrica(object):
     
     def set_ancho(self, ancho):
         self.__ancho = ancho
-        
+    
+    @abstractmethod    
+    def area(self):
+        pass
         
     
